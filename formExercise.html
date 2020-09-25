@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Forms Exercise</title>
+    <title>Register</title>
 </head>
 <body>
     <h1>Register</h1>
     <!-- Line 1: First Name Last Name -->
     <form>
-        <label for="firstName">First Name:</label>
-            <input id="firstName" type="text" placeholder="John">
-        <label for="lastName">Last Name:</label>
-            <input id="lastName" type="text" placeholder="Smith">
-        <br>
+        <div>
+            <label for="firstName">First Name:</label>
+                <input name="first" id="firstName" type="text" placeholder="John">
+            <label for="lastName">Last Name:</label>
+                <input name="last" id="lastName" type="text" placeholder="Smith">
+        </div>
 
     <!-- Line Two: Gender -->
+    <div>
         <label for="male">Male: </label>
             <input name="userGender" id="male" type="radio">
         <label for="female">Female: </label>
             <input name="userGender" id="female" type="radio">
         <label for="other">Other: </label>
             <input name="userGender" id="other" type="radio">
-        <br>
+    </div>
 
     <!-- Line Three: Email & Password -->
+    <div>
         <label for="email">Email: </label>
             <input id="email" type="email" placeholder="your email" required>
         <label for="password">Password: </label>
             <input id="password" type="password" placeholder="your password" minlength="5" maxlength="10" required>
+    </div>
 
-        <br>
         <!-- Date of Birth -->  
+    <div>
         <label for="birthday">Birthday: </label>
         <select name="month" id="birthday">
             <option value="Month">Month</option>
@@ -49,13 +53,14 @@
             <option value="1992">1992</option>
             <option value="1993">1993</option>
         </select>
+    </div>
 
-        <br>
         <!-- Terms and Conditions Checkbox -->
-        <label>I agree to the terms and conditions</label></label>
-        <input type="checkbox" required>
+    <div>
+        <label for="agreed" >I agree to the terms and conditions</label>
+        <input id="agreed" name="agreed" type="checkbox" required>
+    </div>
 
-        <br>
         <!-- Submit form -->
         <input type="submit">
     </form>
