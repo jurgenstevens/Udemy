@@ -1,3 +1,14 @@
+/* hexadecimal colors */
+/* h1{
+    color: #54206E;
+} */
+
+/* rgb colors */
+/* h1{
+    color: rgb(0, 0, 0);
+} */
+
+/* rgba - just like rgb but with an alpha(transparency) channel. Ranges from 0.0 - 1.0 */
 h1{
-    color: #FF8000;
+    color: rgba(11, 99, 150, .6);
 }
