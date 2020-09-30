@@ -9,25 +9,25 @@
 } */
 
 /* rgba - just like rgb but with an alpha(transparency) channel. Ranges from 0.0 - 1.0 */
-h1{
+/* h1{
     color: rgba(11, 99, 150, .6);
     /* border-color: purple;
     border-width: 5px;
     border-style: solid; */
 
-    border: 2px solid rgb(255, 100, 80);
-}
+    /* border: 2px solid rgb(255, 100, 80);
+} */
 
 /* width
 color
 style*/
 
-h4{
+/* h4{
     background: rgb(255, 100, 80)
 }
 body {
-    background: pink;
+    background: pink; */
     /* background: url(https://www.publicdomainpictures.net/pictures/290000/velka/gray-wood-grain-background-15477286299QD.jpg);
     background-repeat: no-repeat;
     background-size: cover; */
-}
+/* } */
