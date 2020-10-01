@@ -3,5 +3,9 @@ li  {
 }
 
 #special {
-    background: red;
+    background: red; 
+}
+
+.completed{
+    text-decoration: line-through;
 }
