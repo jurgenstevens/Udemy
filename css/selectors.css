@@ -1,1 +1,11 @@
-.flex { flex-wrap: nowrap; }
+li {
+    border: 2px solid red;
+}
+
+#special {
+    background: red;
+}
+
+.complete {
+    text-decoration: line-through wavy black;
+}
