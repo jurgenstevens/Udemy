@@ -1,11 +1,17 @@
+/* Element */
 li {
-    border: 2px solid red;
-}
 
-#special {
-    background: red;
 }
+/* Class */
+.hello {
 
-.complete {
-    text-decoration: line-through wavy black;
 }
+/* ID */
+#name {
+    
+}
+/* Star */
+/* Descendant Selector */
+/* Adjacent Selector */
+/* Attribute Selector */
+/* nth of type */
