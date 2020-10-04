@@ -3,17 +3,17 @@ https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-
 */
 
 /* Element */
-li {
+/* li {
 
-}
+} */
 /* Class */
-.hello {
+/* .hello {
 
-}
+} */
 /* ID */
-#name {
+/* #name {
 
-}
+} */
 /* Star - selects every element on the page */
 * {
     border: 1px solid lightgray;
