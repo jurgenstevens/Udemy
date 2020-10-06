@@ -35,7 +35,7 @@ a[href="http://www.google.com"] {
     background: blue;
 }
 
-/* nth of type */
+/* nth of type - matches every element that is the nth child, of a particular type, of its parent. n can be a number, a keyword, or a formula. Tip: Look at the :nth-child() selector to select the element that is the nth child, regardless of type, of its parent.*/
 li:nth-of-type(3){
     background: purple;
 }
